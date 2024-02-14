@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>quà valentine cho ngọc minh yêu</title>
+  <style type="text/css">
+    body {
+      background-image: url('bg2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Pixel Sans Serif', sans-serif; /* Apply SVN-Retron 2000 font */
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    img {
+      width: 400px; /* Adjust width as needed */
+      margin-top: -90px; /* Adjust this value to move the image higher */
+    }
+
+    p {
+      margin-top: 10px; /* Adjust space between image and text */
+      margin-right: 100px ;
+      color: rgb(255, 213, 0); /* Set text color to yellow */
+      font-size: 20px; /* Set font size to 40px */
+      text-shadow: 2px 2px #ff0000;
+      white-space: nowrap; /* Prevent text from wrapping */
+      overflow: hidden; /* Hide overflow text */
+      animation: typing 4s steps(40, end); /* Animation for typing effect */
+      display: flex; 
+      flex-direction: column;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="center">
+      <img width="400" src="pixel-heart.gif">
+    </div>
+  </div>
+  <p id="typingText">
+    HAPPY VALENTINE'S DAY, BIBI 🌷
+    I LOVE YOU
+  </p>
+
+  <script>
+    // JavaScript to trigger typing effect
+    window.onload = function() {
+      var element = document.getElementById("typingText");
+      var text = element.textContent; // Get text content without HTML tags
+      element.innerHTML = ""; // Clear the element's content
+      var i = 0;
+      var typing = function() {
+        if (i < text.length) {
+          if (text[i] === '\n') {
+            element.innerHTML += '<br>'; // Insert <br> tag for newline character
+          } else {
+            element.innerHTML += text.charAt(i);
+          }
+          i++;
+          setTimeout(typing, 100); // Adjust typing speed (milliseconds)
+        }
+      }
+      typing();
+    }
+  </script>
+</body>
+</html>
