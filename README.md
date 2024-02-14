@@ -11,7 +11,7 @@ This project is a simple web page created as a Valentine's Day gift. It displays
 
 ## How to View
 
-You can view the webpage by visiting [Valentine's Gift](https://yourusername.github.io/valentines-gift). 
+You can view the webpage by visiting [Valentine's Gift](https://luluhoccode.github.io/valentines-gift). 
 
 ## Technologies Used
 
