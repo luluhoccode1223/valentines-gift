@@ -9,9 +9,6 @@ This project is a simple web page created as a Valentine's Day gift. It displays
 - Uses custom fonts and styling for a personalized touch.
 - Includes an animated typing effect for the message.
 
-## How to View
-
-You can view the webpage by visiting [Valentine's Gift](https://luluhoccode.github.io/valentines-gift). 
 
 ## Technologies Used
 
