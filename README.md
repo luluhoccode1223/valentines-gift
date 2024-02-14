@@ -31,5 +31,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-- Pixel heart image: [Unsplash](https://unsplash.com)
-- Font: SVN-Retron 2000
+- Pixel heart image: 
+- Font: Pixel Sans Serif
